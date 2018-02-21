@@ -21,7 +21,7 @@ import javax.servlet.http.*;
 import javax.servlet.annotation.*;
 
 
-@WebServlet("/cadd")
+@WebServlet("/cadd2")
 public class AddHouseController extends HttpServlet{
     protected void doGet(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
